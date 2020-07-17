@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_medium_3"
+        app:cardElevation="@dimen/margin_small">
+
+        <FrameLayout
+            android:layout_width="150dp"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/iv_country"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/maldive" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_margin="@dimen/margin_card_medium_2"
+                android:background="@drawable/rounded_corner"
+                android:padding="@dimen/margin_medium"
+                android:text="New"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_regular" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:padding="@dimen/margin_medium">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.5"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_countryname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLines="2"
+                            android:text="@string/tv_sample_country"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/text_regular_2x" />
+
+                        <TextView
+                            android:id="@+id/tv_locations"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tv_countryname"
+                            android:text="@string/tv_sample_totaltour"
+                            android:textColor="@color/color_white"
+                            android:textSize="@dimen/text_regular_2x" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_rating"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center_vertical"
+                        android:layout_margin="@dimen/margin_small"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/rounded_corner"
+                        android:drawableBottom="@drawable/ic_star_black_24dp"
+                        android:gravity="center"
+                        android:padding="@dimen/margin_small"
+                        android:text="@string/tv_rating"
+                        android:textColor="@color/color_white"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

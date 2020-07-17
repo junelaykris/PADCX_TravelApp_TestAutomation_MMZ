@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/bottom_navigation_txt_home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item
+        android:id="@+id/action_star"
+        android:title="@string/title_important"
+        android:icon="@drawable/ic_star_black_24dp"/>
+
+    <item
+        android:id="@+id/action_liked"
+        android:title="@string/title_liked"
+        android:icon="@drawable/liked"/>
+
+    <item
+        android:id="@+id/action_price"
+        android:title="@string/title_prices"
+        android:icon="@drawable/coin"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/bottom_navigation_txt_search"
+        android:icon="@drawable/ic_search_black_24dp"/>
+
+
+
+
+</menu>

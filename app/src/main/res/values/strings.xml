@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TravelApp_TestAutomation_MMZ</string>
+
+    <string name="tv_like">Like</string>
+    <string name="tv_sample_tour">Thailand</string>
+    <string name="tv_services">10 nights for two/all inclusive</string>
+    <string name="tv_tourfee">$245.50</string>
+    <string name="tv_rating">4.0</string>
+    <string name="title_important">Important</string>
+    <string name="title_liked">Liked</string>
+    <string name="title_prices">Prices</string>
+    <string name="tv_popular_tours">Popular Tours</string>
+    <string name="tv_country">Country</string>
+    <string name="tv_motto">Find the best tour</string>
+    <string name="tv_sample_country">Thailand</string>
+    <string name="tv_sample_totaltour">18 Tours</string>
+
+    <string name="bottom_navigation_txt_home">Home</string>
+    <string name="bottom_navigation_txt_search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tv_resortdetail">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged.</string>
+    <string name="tv_wifi">Free\nWi-Fi</string>
+    <string name="tv_sand">Sand Beach</string>
+    <string name="tv_coastline">First\nCoastline</string>
+    <string name="heading_discounttour">DiscountTour</string>
+    <string name="price_fragment">Price Fragment</string>
+    <string name="liked_fragment">Liked Fragment</string>
+    <string name="search_fragment">Search Fragment</string>
+    <string name="starred_fragment">Starred Fragment</string>
+</resources>
